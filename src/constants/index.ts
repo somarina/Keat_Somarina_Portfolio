@@ -161,10 +161,10 @@ const experiences: TExperience[] = [
     iconBg: '#383E56',
     date: 'March 2020 - April 2021',
     points: [
-      'Architected cross-platform mobile applications from the ground up using React Native and Flutter.',
-      'Developed and integrated robust RESTful APIs and GraphQL endpoints using Node.js and Express.',
-      'Designed highly responsive and intuitive UI/UX for both iOS and Android platforms.',
-      'Optimized application performance and memory usage, ensuring smooth 60fps animations.',
+      'Instructed university students on fundamental programming concepts, data structures, and algorithms using C and C++.',
+      'Guided students through hands-on exercises focusing on memory management, pointers, and object-oriented programming (OOP) principles.',
+      'Designed coding challenges, quizzes, and structured lesson plans to foster logical thinking and problem-solving skills.',
+      'Mentored students in debugging techniques and best coding practices, helping them build a strong foundation in computer science.',
     ],
   },
 ];
