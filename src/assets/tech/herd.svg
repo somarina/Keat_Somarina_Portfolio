@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5f5"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <linearGradient id="hRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D4D"/>
+      <stop offset="100%" stop-color="#E63946"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="10" y="10" width="180" height="180" rx="36" ry="36" fill="url(#bg)" />
+  <!-- Shadow/depth -->
+  <rect x="10" y="12" width="180" height="180" rx="36" ry="36" fill="rgba(0,0,0,0.03)" />
+  <!-- Letter "h" -->
+  <path d="M 72 50 L 72 150 Q 72 152, 74 152 L 86 152 Q 88 152, 88 150 L 88 112 Q 88 95, 100 90 Q 108 87, 116 90 Q 126 95, 126 112 L 126 150 Q 126 152, 128 152 L 140 152 Q 142 152, 142 150 L 142 108 Q 142 88, 130 76 Q 118 65, 102 68 Q 92 70, 88 78 L 88 52 Q 88 50, 86 50 L 74 50 Q 72 50, 72 52 Z" fill="url(#hRed)"/>
+</svg>

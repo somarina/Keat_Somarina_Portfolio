@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="capBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0f0f5"/>
+      <stop offset="100%" stop-color="#dddde5"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="10" y="10" width="180" height="180" rx="36" ry="36" fill="url(#capBg)"/>
+  <!-- CapCut icon (stylized film/scissors shape) -->
+  <!-- Top X cross -->
+  <line x1="62" y1="58" x2="138" y2="110" stroke="#1a1a1a" stroke-width="14" stroke-linecap="round"/>
+  <line x1="138" y1="58" x2="62" y2="110" stroke="#1a1a1a" stroke-width="14" stroke-linecap="round"/>
+  <!-- Top bar -->
+  <line x1="68" y1="55" x2="132" y2="55" stroke="#1a1a1a" stroke-width="14" stroke-linecap="round"/>
+  <!-- Bottom bar (wider) -->
+  <rect x="55" y="108" width="90" height="14" rx="7" fill="#1a1a1a"/>
+  <!-- "CapCut" text -->
+  <text x="100" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="22" fill="#1a1a1a" text-anchor="middle">CapCut</text>
+</svg>

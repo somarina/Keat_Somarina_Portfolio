@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="hex1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A5E8"/>
+      <stop offset="50%" stop-color="#9B6FC3"/>
+      <stop offset="100%" stop-color="#68217A"/>
+    </linearGradient>
+    <linearGradient id="hex2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A078C0"/>
+      <stop offset="100%" stop-color="#3F1560"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagon back face (dark) -->
+  <polygon points="100,15 175,55 175,145 100,185 25,145 25,55" fill="url(#hex2)"/>
+  <!-- Hexagon front face (light) -->
+  <polygon points="100,15 175,55 175,100 100,140 25,100 25,55" fill="url(#hex1)"/>
+  <!-- Letter C -->
+  <circle cx="95" cy="105" r="40" fill="none" stroke="white" stroke-width="16"/>
+  <rect x="95" y="65" width="50" height="80" fill="url(#hex1)"/>
+  <rect x="95" y="100" width="50" height="45" fill="url(#hex2)"/>
+  <!-- Rebuild the C opening -->
+  <path d="M 130 78 A 40 40 0 1 0 130 132" fill="none" stroke="white" stroke-width="16" stroke-linecap="round"/>
+  <!-- Hash symbol # -->
+  <text x="128" y="120" font-family="Arial, sans-serif" font-weight="900" font-size="42" fill="white">#</text>
+</svg>

@@ -9,28 +9,24 @@ import type {
 
 import {
   backend,
-  carrent,
-  css,
-  docker,
+  camExplore,
+  ecommerceApp,
   figma,
-  git,
-  html,
-  javascript,
-  jobit,
-  meta,
+  herd,
   mobile,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  shopify,
-  tailwind,
-  tesla,
-  threejs,
-  tripguide,
-  typescript,
+  ruppStudyClub,
+  todoList,
   web,
 } from '../assets';
+
+const devicon = (icon: string) =>
+  `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${icon}`;
+
+const simpleIcon = (slug: string, color: string) =>
+  `https://cdn.simpleicons.org/${slug}/${color}`;
+
+const dashboardIcon = (icon: string) =>
+  `https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/${icon}.svg`;
 
 export const navLinks: TNavLink[] = [
   {
@@ -68,56 +64,92 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'Flutter',
+    icon: devicon('flutter/flutter-original.svg'),
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'HTML5',
+    icon: devicon('html5/html5-original.svg'),
+  },
+  {
+    name: 'CSS3',
+    icon: devicon('css3/css3-original.svg'),
   },
   {
     name: 'JavaScript',
-    icon: javascript,
+    icon: devicon('javascript/javascript-original.svg'),
+  },
+  {
+    name: 'React',
+    icon: devicon('react/react-original.svg'),
   },
   {
     name: 'TypeScript',
-    icon: typescript,
+    icon: devicon('typescript/typescript-original.svg'),
   },
   {
-    name: 'React JS',
-    icon: reactjs,
+    name: 'React Native',
+    icon: devicon('react/react-original.svg'),
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Node.js',
+    icon: devicon('nodejs/nodejs-original-wordmark.svg'),
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Java',
+    icon: devicon('java/java-original.svg'),
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'Spring Boot',
+    icon: devicon('spring/spring-original.svg'),
+  },
+  {
+    name: 'FastAPI',
+    icon: devicon('fastapi/fastapi-original.svg'),
   },
   {
     name: 'MongoDB',
-    icon: mongodb,
+    icon: devicon('mongodb/mongodb-original.svg'),
   },
   {
-    name: 'Three JS',
-    icon: threejs,
+    name: 'MongoDB Atlas',
+    icon: simpleIcon('mongodb', '47A248'),
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'Git',
+    icon: devicon('git/git-original.svg'),
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'GitHub',
+    icon: simpleIcon('github', 'ffffff'),
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'Docker',
+    icon: devicon('docker/docker-original.svg'),
+  },
+  {
+    name: 'Figma',
+    icon: devicon('figma/figma-original.svg'),
+  },
+  {
+    name: 'Laravel',
+    icon: simpleIcon('laravel', 'FF2D20'),
+  },
+  {
+    name: 'Laravel Herd',
+    icon: herd,
+  },
+  {
+    name: 'C#',
+    icon: devicon('csharp/csharp-original.svg'),
+  },
+  {
+    name: 'CapCut',
+    icon: dashboardIcon('cap-cut-dark'),
+  },
+  {
+    name: 'Dart',
+    icon: devicon('dart/dart-original.svg'),
   },
 ];
 
@@ -125,7 +157,7 @@ const experiences: TExperience[] = [
   {
     title: 'C/C++ Teacher',
     companyName: 'RUPP Study Club',
-    icon: 'https://reasauuznvdcinicajak.supabase.co/storage/v1/object/public/tourism-image/photo_2026-01-21_09-43-50.jpgs',
+    icon: ruppStudyClub,
     iconBg: '#383E56',
     date: 'March 2020 - April 2021',
     points: [
@@ -133,45 +165,6 @@ const experiences: TExperience[] = [
       'Developed and integrated robust RESTful APIs and GraphQL endpoints using Node.js and Express.',
       'Designed highly responsive and intuitive UI/UX for both iOS and Android platforms.',
       'Optimized application performance and memory usage, ensuring smooth 60fps animations.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    companyName: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Led the migration of legacy mobile codebases to modern React Native architecture.',
-      'Integrated native modules and complex device features (camera, GPS, push notifications) into React Native apps.',
-      'Collaborated with backend engineers to define scalable microservices architecture on AWS.',
-      'Mentored junior developers and established CI/CD pipelines for automated App Store and Google Play deployments.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    companyName: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Spearheaded the development of a unified E-commerce mobile app using Flutter and Firebase.',
-      'Implemented robust state management using Redux and GetX for large-scale application scalability.',
-      'Built seamless checkout experiences integrating Stripe and Apple/Google Pay SDKs.',
-      'Reduced application startup time by 40% through code splitting and lazy loading optimizations.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    companyName: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Driving technical strategy and development for flagship mobile applications reaching millions of users.',
-      'Designing full-stack solutions with React Native frontends and scalable Node.js/MongoDB backends.',
-      'Implementing real-time features using WebSockets for instant messaging and live location tracking.',
-      'Ensuring strict security compliance and data encryption across all layers of the mobile architecture.',
     ],
   },
 ];
@@ -205,67 +198,67 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: 'AutoRent Mobile',
+    name: 'តោះទិញទំនិញ',
     description:
-      'A cross-platform mobile application that allows users to search, book, and manage car rentals from various providers, providing a seamless and efficient transportation solution on the go.',
-    tags: [
-      {
-        name: 'react-native',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: carrent,
-    sourceCodeLink: 'https://github.com/',
-  },
-  {
-    name: 'JobHunt App',
-    description:
-      'Mobile application enabling users to swipe through job openings, view estimated salary ranges, and locate available jobs based on real-time geolocation tracking.',
+      'A Flutter-based e-commerce app built for Cambodian shoppers to browse, search, and purchase products locally. Features cart management, order history, and smooth checkout powered by SQLite and SharedPreferences.',
     tags: [
       {
         name: 'flutter',
         color: 'blue-text-gradient',
       },
       {
-        name: 'firebase',
+        name: 'sqlite',
         color: 'green-text-gradient',
       },
       {
-        name: 'dart',
+        name: 'shared-prefs',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    sourceCodeLink: 'https://github.com/',
+    image: ecommerceApp,
+    sourceCodeLink: '',
   },
   {
-    name: 'TripGuide Mobile',
+    name: 'ToDo-List',
     description:
-      'A comprehensive travel companion app that allows users to book flights, hotels, and rental cars, featuring AR navigation and curated recommendations for popular destinations.',
+      'A productivity app built with Flutter and GetX state management, allowing users to manage daily tasks with priorities, due dates, and persistent local storage via GetStorage. Backend powered by FastAPI.',
     tags: [
       {
-        name: 'react-native',
+        name: 'flutter',
         color: 'blue-text-gradient',
       },
       {
-        name: 'nodejs',
+        name: 'getx',
         color: 'green-text-gradient',
       },
       {
-        name: 'graphql',
+        name: 'fastapi',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    sourceCodeLink: 'https://github.com/',
+    image: todoList,
+    sourceCodeLink: '',
+  },
+  {
+    name: 'CamExplore',
+    description:
+      'Explore the beauty of Cambodia — from ancient Angkor temples and royal palaces to vibrant street markets and coastal getaways. A Flutter travel app showcasing Cambodian culture, tourism spots, and local experiences with offline support via SQLite and SharedPreferences.',
+    tags: [
+      {
+        name: 'flutter',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'sqlite',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'shared-prefs',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: camExplore,
+    sourceCodeLink: 'https://www.facebook.com/share/v/1Dbgdexqhz/',
   },
 ];
 

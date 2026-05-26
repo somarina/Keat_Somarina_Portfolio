@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="steam1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#E76F00"/>
+      <stop offset="100%" stop-color="#F8981D"/>
+    </linearGradient>
+    <linearGradient id="cup1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5382A1"/>
+      <stop offset="100%" stop-color="#1B6E9C"/>
+    </linearGradient>
+  </defs>
+  <!-- Steam -->
+  <path d="M 88 28 C 88 28, 80 45, 88 55 C 96 65, 88 78, 88 78" fill="none" stroke="url(#steam1)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 108 20 C 108 20, 100 38, 108 50 C 116 62, 108 75, 108 75" fill="none" stroke="url(#steam1)" stroke-width="6" stroke-linecap="round"/>
+  <!-- Cup body -->
+  <path d="M 55 85 L 55 130 Q 55 155, 100 155 Q 145 155, 145 130 L 145 85 Z" fill="url(#cup1)"/>
+  <!-- Saucer -->
+  <ellipse cx="100" cy="160" rx="60" ry="10" fill="url(#cup1)"/>
+  <!-- Cup rim highlight -->
+  <path d="M 55 85 L 145 85" stroke="#7EACC4" stroke-width="4" stroke-linecap="round"/>
+  <!-- Cup bottom ring -->
+  <ellipse cx="100" cy="170" rx="50" ry="8" fill="none" stroke="url(#cup1)" stroke-width="5"/>
+  <ellipse cx="100" cy="178" rx="42" ry="6" fill="none" stroke="url(#cup1)" stroke-width="4"/>
+</svg>

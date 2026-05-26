@@ -66,7 +66,7 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
+      h2: "About Me.",
       content: `I'm a passionate Full Stack Mobile App Developer with a deep expertise in Flutter, React Native, React.js, and Node.js. I thrive on creating pixel-perfect, highly performant cross-platform mobile applications and scalable backend architectures. With a keen eye for beautiful UI/UX design and a strong foundation in modern software engineering, I collaborate closely with clients to transform their ambitious ideas into elegant, real-world solutions. Let's create an unforgettable digital experience together!`,
     },
     experience: {

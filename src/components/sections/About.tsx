@@ -7,6 +7,8 @@ import { SectionWrapper } from "../../hoc";
 import { fadeIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
+import { somarina } from "../../assets";
+import cvFile from "../../assets/Keat Somarina - CV&CL.pdf";
 
 interface IServiceCard {
   index: number;
@@ -75,7 +77,7 @@ const About = () => {
             {config.sections.about.content}
           </p>
           <a
-            href="/CV.pdf"
+            href={cvFile}
             download="Keat_Somarina_CV.pdf"
             className="mt-8 inline-block bg-[#00F0FF] text-black font-bold py-3 px-8 rounded-xl shadow-[0_0_15px_rgba(0,240,255,0.4)] hover:shadow-[0_0_25px_rgba(0,240,255,0.8)] transition-all duration-300"
           >
@@ -89,7 +91,7 @@ const About = () => {
         >
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-4 border-[#171717] shadow-card relative group">
              <div className="absolute inset-0 cyan-gradient opacity-20 z-10 group-hover:opacity-40 transition-opacity duration-300" />
-             <img src="/profile_pic.png" alt="Keat Somarina" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+             <img src={somarina} alt="Keat Somarina" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
           </div>
         </motion.div>
       </div>

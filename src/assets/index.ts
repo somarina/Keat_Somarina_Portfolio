@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import somarina from "./somarina.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,15 +21,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import herd from "./tech/herd.svg";
+import java from "./tech/java.svg";
+import csharp from "./tech/csharp.svg";
+import capcut from "./tech/capcut.svg";
+import dart from "./tech/dart.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ruppStudyClub from "./company/image.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ecommerceApp from "./ecomerce_app_image.png";
+import todoList from "./todo-list_image.png";
+import camExplore from "./camexplore_image.jpg";
 
 export {
   logo,
@@ -39,6 +42,7 @@ export {
   github,
   menu,
   close,
+  somarina,
   css,
   docker,
   figma,
@@ -52,11 +56,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  ruppStudyClub,
+  ecommerceApp,
+  todoList,
+  camExplore,
+  herd,
+  java,
+  csharp,
+  capcut,
+  dart,
 };

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="dartBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#01579B"/>
+      <stop offset="100%" stop-color="#0175C2"/>
+    </linearGradient>
+    <linearGradient id="dartLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#40C4FF"/>
+      <stop offset="100%" stop-color="#0288D1"/>
+    </linearGradient>
+  </defs>
+  <!-- Main diamond/arrow shape -->
+  <!-- Bottom-left quadrant (dark blue) -->
+  <path d="M 40 100 L 40 155 L 55 170 L 100 170 Z" fill="url(#dartBlue)"/>
+  <!-- Top-left quadrant (medium blue) -->
+  <path d="M 40 100 L 100 40 L 100 100 Z" fill="#0288D1"/>
+  <!-- Right side (light blue) -->
+  <path d="M 100 40 L 165 40 L 170 55 L 110 115 L 100 170 L 55 170 L 100 100 Z" fill="url(#dartLight)"/>
+  <!-- Highlight triangle -->
+  <path d="M 100 100 L 165 40 L 170 55 L 110 115 Z" fill="rgba(255,255,255,0.2)"/>
+  <!-- Corner notch top-right -->
+  <path d="M 150 40 L 165 40 L 170 55 Z" fill="#01579B"/>
+  <!-- Inner highlight -->
+  <path d="M 100 100 L 55 170 L 100 170 L 110 115 Z" fill="rgba(0,0,0,0.1)"/>
+</svg>
